@@ -1,0 +1,192 @@
+/* code for first section */
+.header-content{
+    margin-top: 100px;
+
+
+}
+.header-content .container .row .col-md-6 h1{
+    color: white;
+    margin-bottom: 15px;
+}
+
+.header-content .container .row .col-md-6 h2{
+    color: white;
+    margin-bottom: 15px;
+}
+
+.btn {
+    color: white;
+    background-color: black;
+    border-radius: solid ;
+    border-width: 2px;
+    border-color: white;
+    font-weight: 750;
+}
+
+.btn-primary{
+     --bs-btn-hover-bg: rgb(55, 54, 54);
+     --bs-btn-hover-border-color: rgb(55, 54, 54);
+}
+
+.col-md-6 img{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    /* filter: brightness(70%); */
+
+    
+}
+
+
+
+
+body{
+    overflow-x: hidden ;
+    
+    background: linear-gradient(rgb(28, 28, 28),rgb(19, 18, 18));
+
+   
+}
+
+/* code for second section */
+
+
+#he1{
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 700;
+ 
+    margin-top: 8%;
+    margin-bottom: 5%;
+    background-color: black;
+    border-radius: 10px;
+    height: 40px;
+    justify-content: center;
+}
+
+#ht2{
+    color: white;
+    font-weight: 800;
+   
+}
+
+#gg{
+    color: white;
+    text-align: center;
+    font-size:15px;
+    font-weight: 700;
+    
+    
+    
+}
+
+
+
+
+
+#sk23{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+#h1254{
+    margin-bottom: 2%;
+}
+
+/* third section */
+
+
+#h3es{
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 700;
+    margin-top: 4%;
+    margin-bottom: 5%;
+    background-color: black;
+    border-radius: 10px;
+    height: 40px;
+    justify-content: center;
+}
+
+
+#ex12{
+    color: white;
+    text-align: center;
+    font-size: x-large;
+    font-weight: 700;
+    padding-top: 5%;
+    margin-bottom: 5%;
+    
+}
+
+#ex01{
+    background-color: black;
+   
+    
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    margin-top: 10%;
+    margin-bottom: -1%;
+    
+}
+
+#uu3{
+  
+    margin-right: 5%;
+    padding-bottom: 8%;
+}
+
+
+
+/* fourth section */
+
+
+#ex02{
+    background-color: black;
+  
+    padding: 3%;
+    
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    margin-top: 8%;
+    
+    
+}
+
+#ed01{
+    padding-top: 6%;
+}
+
+
+/* fourth section */
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+#g55{
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+#g55:hover{
+    font-size: 1.7rem;
+}
+
+#g55a{
+    margin-top: 5%;
+}
+
+#podes1{
+    color: white;
+}
+
+#portfolio{
+    margin-bottom: 80px;
+}

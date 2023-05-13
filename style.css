@@ -1,0 +1,616 @@
+/* code for offcannas header cLass */
+.offcanvas-header{
+    height: 60px;
+    padding: 0%;
+}
+
+
+
+
+/* this is for navbar img */
+.nav-img1 img{
+    width: 399px;
+
+}
+
+
+.labeltop h4:hover{
+        font-size: 1.8rem;
+        padding-left: 100px;
+       
+
+
+}
+
+
+/* this code is for styling of header of navbar */
+
+.labeltop h4{
+    background-color: black;
+    width: 400px;
+    margin: 0px;
+    height: 55px;
+    padding-left: 115px;
+    position: relative;
+    padding-top: 13px;
+    left: -0px;
+    top: 1px;
+    color: white;
+    text-align: justify;
+
+}
+
+/* this code is for close button of navbar */
+.butcls button{
+    width: 15px;
+    height: 12px;
+    color: white;
+    background-color: white;
+    top: -1px;
+    position: relative;
+    left: -60px;
+    text-decoration: white;
+}
+
+  /* code for icon styling */
+.fa_custom {
+    color:white;
+    display: inline;
+    background-color: black;
+    top: 7px;
+    left: 10px;
+    position: relative;
+}
+
+/* code for home icon style */
+.offcanvas-body .home a{
+
+    background-color: black;
+    position: relative;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: x-large;
+    top: 4px;
+    left: 130px;
+}
+/* code for home tag animation */
+.offcanvas-body .home a::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scale(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: red;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+
+}
+
+.offcanvas-body .home a:hover::after{
+    transform: scale(1);
+    transform-origin: bottom left;
+
+}
+
+
+
+/* code for class home */
+
+.offcanvas-body .home {
+    width: 410px;
+    height: 48px;
+    left: -20px;
+    background-color: black;
+    top: -14px;
+
+    position: relative;
+
+
+}
+/* to hide scroll bar */
+.offcanvas-body::-webkit-scrollbar {
+    display: none;
+    overflow-x: hidden;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.offcanvas-body {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+  overflow-x: hidden;
+}
+
+.offcanvas-body .about a{
+
+    background-color: black;
+    position: relative;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: x-large;
+    top: 4px;
+    left: 121px;
+}
+/* code for home tag animation */
+.offcanvas-body .about a::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scale(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: red;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+
+}
+
+.offcanvas-body .about a:hover::after{
+    transform: scale(1);
+    transform-origin: bottom left;
+
+}
+
+
+
+/* code for class home */
+
+.offcanvas-body .about {
+    width: 410px;
+    height: 48px;
+    left: -20px;
+    background-color: black;
+    top: -13px;
+
+    position: relative;
+
+
+}
+
+.fa_custom4{
+    color: white;
+    position: relative;
+    top: 7px;
+    left: 20px;
+
+}
+
+
+
+/* for personality icon in person bar*/
+
+.fa_custom1{
+    color: white;
+    position: relative;
+    top: 7px;
+    left: 7px;
+
+}
+
+/* code for peronality tag */
+
+.person a{
+    background-color: black;
+    position: relative;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: x-large;
+    top: 4px;
+    left: 38px;
+}
+
+/* code for personality tag animation */
+.offcanvas-body .person a::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scale(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: red;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+
+}
+
+.offcanvas-body .person a:hover::after{
+    transform: scale(1);
+    transform-origin: bottom left;
+}
+
+
+/* code for perdon div */
+
+.offcanvas-body .person {
+    width: 410px;
+    height: 48px;
+
+    background-color: black;
+    top: -12px;
+    left: -17px;
+
+    position: relative;
+
+
+}
+
+
+
+/* code for favorites cities tag */
+
+
+.offcanvas-body .city{
+    width: 410px;
+    height: 48px;
+
+    background-color: black;
+    top: -11.5px;
+    left: -17px;
+
+    position: relative;
+
+
+}
+
+.city a{
+    background-color: black;
+    position: relative;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: x-large;
+    top: 4px;
+    left: 83px;
+}
+
+/* code for city tag animation */
+.offcanvas-body .city a::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scale(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: red;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+
+}
+
+.offcanvas-body .city a:hover::after{
+    transform: scale(1);
+    transform-origin: bottom left;
+}
+
+.fa_custom2{
+    color: white;
+    position: relative;
+    top: 7px;
+    left: 7px;
+
+}
+
+
+
+
+
+/* code for tourist spot tag */
+
+.offcanvas-body .spot{
+    width: 410px;
+    height: 48px;
+
+    background-color: black;
+    top: -11px;
+    left: -17px;
+
+    position: relative;
+
+
+}
+
+.spot a{
+    background-color: black;
+    position: relative;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: x-large;
+    top: 4px;
+    left: 70px;
+}
+/* code for spots tag animation */
+.offcanvas-body .spot a::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scale(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: red;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+
+}
+
+.offcanvas-body .spot a:hover::after{
+    transform: scale(1);
+    transform-origin: bottom left;
+}
+
+/* code for contact page */
+
+
+.offcanvas-body .contact{
+    width: 410px;
+    height: 48px;
+
+    background-color: black;
+    top: -10px;
+    left: -17px;
+
+    position: relative;
+
+
+}
+
+
+.contact a{
+    background-color: black;
+    position: relative;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: x-large;
+    top: 4px;
+    left: 115px;
+}
+
+/* code for contact tag animation */
+.offcanvas-body .contact a::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scale(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: red;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+
+}
+
+.offcanvas-body .contact a:hover::after{
+    transform: scale(1);
+    transform-origin: bottom left;
+}
+
+
+
+
+/* icons at the end of the navbar */
+
+
+
+
+.navfoot{
+    width: 400px;
+    height: 250px;
+    margin-left: -17px;
+    background-color: black;
+    margin-top: -8px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    
+
+}
+
+.navfoot a{
+    color: white;
+    text-decoration: none;
+    font-size: x-large;
+    padding-top: 100px;
+  
+    
+   
+
+    
+   
+
+}
+
+.navfoot a:hover{
+    font-size: 1.8rem;
+}
+
+
+/* code for picture at end of navbar */
+
+
+
+.picendnav{
+    margin: 0px;
+    
+}
+.picendnav img{
+    width: 399px;
+    margin-top: 1.5px;
+    margin-left: -16px;
+    margin-bottom: -13px;
+    filter: blur(12px);
+    filter: brightness(20%);
+   
+
+
+}
+
+
+
+/* carousol  */
+/* for giving carousel img blur effect */
+.carousel-item img{
+    filter: blur(8px);
+
+
+}
+
+/* for carousel adjustments */
+
+.carousel {
+    margin-top: -13px;
+    margin-left: -19px;
+    margin-right: -19px;
+    
+
+}
+
+/* for navbar home button at the top of the page */
+.nav-btn button{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 70px;
+    left: 0px;
+    border: solid;
+    background-color: black;
+    border-color:rgb(55, 54, 54);
+    text-align: center;
+    font-size: x-large;
+    font-weight: bolder;
+
+
+
+}
+
+/* code for effect on button after hovering */
+
+.nav-btn button:hover{
+
+    color: white;
+    background-color: rgb(55, 54, 54);
+    font-size:1.65rem ;
+    border-color: rgb(55, 54, 54);
+
+}
+/* code for chnaging color of button when click */
+
+.btn-primary{
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg:  rgb(55, 54, 54);
+    --bs-btn-active-border-color: white;
+}
+
+
+/* for removing border radius */
+.btn{
+    border-radius: 0%;
+}
+
+
+/* for removing scroll bar horizontally */
+body{
+    overflow-x: hidden;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  body {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+  /* code for carousel caption */
+
+
+
+
+  .nameoncarosel .carousel-caption h3{
+    color: white;
+    font-size: 2.2rem;
+    font-weight: bolder;
+    text-align: center;
+    
+  }
+
+  .nameoncarosel .carousel-caption h3 span{
+    color: rgba(250, 231, 224, 0.585);
+    font-weight: bolder;
+  }
+
+    .nameoncarosel .carousel-caption h4{
+    color: white;
+    font-size: 2.2rem;
+    margin-bottom: 385px;
+    font-weight: bolder;
+    text-align: center;
+    
+
+  }
+  .nameoncarosel .carousel-caption h4 span{
+    color: rgba(250, 231, 224, 0.585);
+    font-weight: bolder;
+  }
+
+
+
+/* code for carousel size and adjustments */
+
+.carousel-item img{
+    width: 100%;
+   height: 925px;
+    
+}
+
+
+/* footer at the end */
+
+.footer {
+    background-color: black;
+    display: flex;
+    width: 100%;
+    height: 70px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: -18px;
+    position: fixed;
+    bottom: 1px;
+    left: 0px;
+    border: solid;
+    border-color: rgb(55, 54, 54); ;
+    
+  }
+
+  .footer:hover{
+    background-color: rgb(55, 54, 54);
+  }  
+  
+  .footer a {
+    color: white;
+    text-decoration: none;
+
+    
+  }
+
+
+  .footer a:hover{
+    font-size: 1.2rem;
+  }
+  
+
+
+

@@ -1,0 +1,345 @@
+
+
+
+
+
+/* this is for header of navbar */
+
+@media screen and (max-width: 400px) {
+    .labeltop h4{
+        background-color: black;
+        width: 390px;
+        left: 0px;
+        position: relative;
+        color: white;
+
+    }
+  }
+
+  /* this is for close button of navbar */
+
+  @media screen and (max-width: 391px) {
+    .butcls button{
+        width: 15px;
+        height: 10px;
+        color: white;
+        background-color: white;
+        top: 0px;
+        position: relative;
+        left: -50px;
+        text-decoration: white;
+        
+    }
+  }
+
+
+/* 
+  @media screen and (min-width: 380px) and (max-width: 399px) {
+    .butcls button{
+        width: 15px;
+        height: 10px;
+        color: white;
+        background-color: white;
+        top: 0px;
+        position: relative;
+        left: -105px;
+        text-decoration: white;
+        
+    }
+  }
+
+  
+  @media screen and (min-width: 370px) and (max-width: 380px) {
+    .butcls button{
+        width: 15px;
+        height: 10px;
+        color: white;
+        background-color: white;
+        top: 0px;
+        position: relative;
+        left: -105px;
+        text-decoration: white;
+        
+    }
+  }
+
+  @media screen and (min-width: 360px) and (max-width: 370px) {
+    .butcls button{
+        width: 15px;
+        height: 10px;
+        color: white;
+        background-color: white;
+        top: 0px;
+        position: relative;
+        left: -105px;
+        text-decoration: white;
+        
+    }
+  } */
+
+
+/* this is for img of navbar */
+
+  @media screen and (max-width: 400px) {
+    .nav-img1 img{
+        width: 390px;
+        height: 266px;
+    }
+  }
+
+
+  /* code for home link */
+
+  @media screen and (max-width: 400px) {
+    .offcanvas-body .home {
+        width: 394px;
+        height: 48px;
+       
+        background-color: black;
+     
+       
+    
+    
+    }
+  }
+
+/* code for home a tag */
+  @media screen and (max-width: 400px) {
+    .offcanvas-body .home a{
+        
+        background-color: black;
+        position: relative;
+        text-decoration: none;
+        color: white;
+        text-align: center;
+        font-size: large;
+        left: 143px;
+        top: 10px;
+      
+    }
+  }
+/* code for home icon */
+  @media screen and (max-width: 400px) {
+    .fa_custom {
+        color:white;
+        display: inline;
+        background-color: black;
+        top: 12px;
+        left: 7px;
+        position: relative;
+        font-size: x-large;
+    }
+  }
+
+
+/* media queries for personality tag */
+
+
+@media screen and (max-width: 400px) {
+    .offcanvas-body .person {
+        width: 391px;
+        height: 48px;
+     
+        background-color: black;
+        top: -13px;
+       
+    
+        position: relative;
+    
+    
+    }
+  }
+
+
+  @media screen and (max-width: 400px) {
+
+    .person a{
+        background-color: black;
+        position: relative;
+        text-decoration: none;
+        color: white;
+        text-align: center;
+        font-size: large;
+        top: 9px;
+        left: 70px;
+    }
+  }
+
+
+  @media screen and (max-width: 400px) {
+    .fa_custom1{
+        color: white;
+        position: relative;
+        top: 12px;
+        left: 7px;
+        position: relative;
+        font-size: x-large;
+    }
+  }
+
+/* media queries for cities */
+
+@media screen and (max-width: 400px) {
+    .offcanvas-body .city{
+        width: 391px;
+        height: 48px;
+     
+        background-color: black;
+        top: -12px;
+
+        left: -17px;
+    
+        position: relative;
+    
+    
+    }
+  }
+
+
+  @media screen and (max-width: 400px) {
+
+    .city a{
+        background-color: black;
+        position: relative;
+        text-decoration: none;
+        color: white;
+        text-align: center;
+        font-size: large;
+        top: 8px;
+        left: 102px;
+    }
+  }
+
+
+  @media screen and (max-width: 400px) {
+    .fa_custom2{
+        color: white;
+        position: relative;
+        top: 11px;
+        left: 7px;
+        position: relative;
+        font-size: x-large;
+    }
+  }
+
+
+  /* media queries for spot*/
+
+
+  @media screen and (max-width: 400px) {
+    .offcanvas-body .spot{
+        width: 391px;
+        height: 48px;
+     
+        background-color: black;
+        top: -11.5px;
+        left: -17px;
+    
+        position: relative;
+    
+    
+    }
+  }
+
+
+  @media screen and (max-width: 400px) {
+
+
+    .spot a{
+        background-color: black;
+        position: relative;
+        text-decoration: none;
+        color: white;
+        text-align: center;
+        font-size: large;
+        top: 8px;
+        left: 93px;
+    }
+  }
+
+
+  /* code for contact link */
+
+  @media screen and (max-width: 400px) {
+    .offcanvas-body .contact{
+        width: 391px;
+        height: 48px;
+     
+        background-color: black;
+        top: -11px;
+        left: -17px;
+    
+        position: relative;
+    
+    
+    }
+  }
+
+
+
+  @media screen and (max-width: 400px) {
+
+
+ 
+.contact a{
+    background-color: black;
+    position: relative;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: large;
+    top: 8px;
+    left: 128px;
+}
+}
+
+
+/* code for footer navbar icons */
+
+
+@media screen and (max-width: 400px) {
+  .navfoot{
+    width: 391px;
+    height: 250px;
+    margin-left: -17px;
+    background-color: black;
+    margin-top: -10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    
+}
+}
+
+@media screen and (max-width: 400px) {
+  .navfoot a{
+    color: white;
+    text-decoration: none;
+    font-size: large;
+    padding-top: 100px;
+    
+}
+}
+
+
+/* code for nav end image */
+@media screen and (max-width: 400px) {
+  .picendnav img{
+    width: 391px;
+    margin-top: 1.5px;
+    margin-left: -16px;
+    margin-bottom: -13px;
+    filter: blur(12px);
+    filter: brightness(20%);
+   
+
+
+}
+}
+
+
+
+
+
+/* code for carousel captions */
